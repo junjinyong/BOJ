@@ -1,5 +1,5 @@
-# Created by https://www.toptal.com/developers/gitignore/api/c,c++,clion,intellij,visualstudio,visualstudiocode,pycharm
-# Edit at https://www.toptal.com/developers/gitignore?templates=c,c++,clion,intellij,visualstudio,visualstudiocode,pycharm
+# Created by https://www.toptal.com/developers/gitignore/api/c,c++,clion,pycharm,intellij,visualstudio,visualstudiocode
+# Edit at https://www.toptal.com/developers/gitignore?templates=c,c++,clion,pycharm,intellij,visualstudio,visualstudiocode
 
 ### C ###
 # Prerequisites
@@ -747,4 +747,4 @@ FodyWeavers.xsd
 ### VisualStudio Patch ###
 # Additional files built by Visual Studio
 
-# End of https://www.toptal.com/developers/gitignore/api/c,c++,clion,intellij,visualstudio,visualstudiocode,pycharm
+# End of https://www.toptal.com/developers/gitignore/api/c,c++,clion,pycharm,intellij,visualstudio,visualstudiocode
