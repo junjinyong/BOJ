@@ -24,7 +24,7 @@ int main() {
 }
 
 void swap(int* p, int* q) {
-    int temp = *p;
+    const int temp = *p;
     *p = *q;
     *q = temp;
 }

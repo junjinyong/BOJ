@@ -7,15 +7,15 @@ int main() {
     scanf("%d %d", &N, &B);
     
     while(N > 0) {
-        int digit = N % B;
-        answer[index] = (digit >= 10 ? digit - 10 + 'A' : digit + '0');
+        const int digit = N % B;
+        answer[index] = (char) (digit >= 10 ? digit - 10 + 'A' : digit + '0');
         ++index;
         N = N / B;
     }
     answer[index] = '\0';
     
     for(int i = 0, j = index - 1; i < j; ++i, --j) {
-        int temp = answer[i];
+        const signed char temp = answer[i];
         answer[i] = answer[j];
         answer[j] = temp;
     }

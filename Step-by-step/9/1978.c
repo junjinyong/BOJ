@@ -17,6 +17,7 @@ int main() {
     while(N--) {
         int x;
         scanf("%d", &x);
+        
         if(!prime[x]) {
             count++;
         }
