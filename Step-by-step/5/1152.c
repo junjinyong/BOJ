@@ -26,5 +26,7 @@ int main(void) {
     
     printf("%d\n", count);
     
+    free(str);
+    
     return 0;
 }
