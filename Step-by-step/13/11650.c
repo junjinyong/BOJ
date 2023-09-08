@@ -31,6 +31,8 @@ int main() {
         printf("%d %d\n", vec[i].x, vec[i].y);
     }
 
+    free(vec);
+    
     return 0;
 }
 

@@ -30,6 +30,8 @@ int main() {
     for(int i = 0; i < N; ++i) {
         printf("%d %d\n", vec[i].x, vec[i].y);
     }
+    
+    free(vec);
 
     return 0;
 }

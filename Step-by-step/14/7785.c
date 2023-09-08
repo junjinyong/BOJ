@@ -136,6 +136,16 @@ void delete(Node** const node, int data) {
     }
 }
 
+void clear(Node* const node) {
+    if(node == NULL) {
+        return;
+    } else {
+        clear(node -> left);
+        clear(node -> right);
+        free(node);
+    }
+}
+
 int encode_(const char ch) {
     return ch < 'a' ? ch - 'A' + 1 : ch - 'a' + 26 + 1;
 }
@@ -201,6 +211,8 @@ int main() {
     }
     
     travel(*root);
+    
+    clear(*root);
     
     return 0;
 }

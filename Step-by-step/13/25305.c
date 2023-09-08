@@ -24,5 +24,7 @@ int main() {
     
     printf("%d\n", arr[N - k]);
     
+    free(arr);
+    
     return 0;
 }
