@@ -1,7 +1,7 @@
 # 단계별로 풀어보기
 
-아래 표는 2023.09.03 기준입니다. 
 
+아래 표는 2024.07.20 기준입니다.
 <div class="col-md-12">
 <div class="table-responsive">
 <table class="table table-bordered table-striped">
